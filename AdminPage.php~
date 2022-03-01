@@ -1,0 +1,24 @@
+<?php
+session_start();
+include 'Header.php';
+
+?>
+<html>
+<head>
+<title>User Login</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+<h1>User Dashboard</h1>
+<?php
+
+if($_SESSION["user_name"]) {
+?>
+Welcome <?php echo $_SESSION["user_name"]; ?>. Click here to <a href="logout.php" title="Logout">Logout.</a>
+<?php
+}
+
+include 'Footer.php';
+?>
+</body></html>

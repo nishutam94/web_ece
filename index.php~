@@ -1,0 +1,115 @@
+<?php
+session_start();
+include 'Header.php';
+?>
+
+<html>
+<head>   
+</head>
+<body style="height:100%;">
+     <!-- MENU SECTION END-->
+     
+    <div id="slideshow-sec" >
+        <div id="carousel-div" class="carousel slide" data-ride="carousel" >
+                   
+                    <div class="carousel-inner">
+                        <div class="item active">
+
+                            <img src="assets/img/1.jpg" alt="" />
+                            <div class="carousel-caption">
+                          <h1 class="wow slideInLeft" data-wow-duration="2s" > Welcome </h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >
+                                      Electronics and Communication Engineering Department</h2>  
+                            </div>
+                           
+                           </div>
+                        <div class="item">
+                            <img src="assets/img/2.jpg" alt="" />
+                            <div class="carousel-caption">
+                          <h1 class="wow slideInLeft" data-wow-duration="2s" >Albert Einstein</h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >The human spirit must prevail over technology. </h2>  
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/3.jpg" alt="" />
+                            <div class="carousel-caption">
+                          <h1 class="wow slideInLeft" data-wow-duration="2s" >Albert Einstein </h1>      
+                                 <h2 class="wow slideInRight" data-wow-duration="2s" >The human spirit must prevail over technology.</h2>  
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!--INDICATORS-->
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-div" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-div" data-slide-to="1"></li>
+                        <li data-target="#carousel-div" data-slide-to="2"></li>
+                    </ol>
+                    <!--PREVIUS-NEXT BUTTONS-->
+                     <a class="left carousel-control" href="#carousel-div" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                         <a class="right carousel-control" href="#carousel-div" data-slide="next">
+                               <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                </div>
+    </div>
+    <!-- SLIDESHOW SECTION END-->
+  <!-- TAG HOME SECTION END-->
+     <div class="parallax-like" >
+      
+            <div class="container" >
+             
+        <div class="row ">
+             
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 
+                 
+                <div class="just-txt-div ">
+                    <h2 style ="margin-left: auto;">ABOUT ECE DEPARTMENT</h2>
+                    <div class="col-xs-12 set-div" style =" height:300px;"> 
+                    <br />
+                <p>
+                      Initially Electronic Engineering was a part of Electrical Engineering and was started in 1982. It came into existence as an NIT Allahabad Electronics and Communication Engineering independent department in 1996. Along with one UG course in Electronics and Communication Engineering, the department offers three post-graduate courses in Digital System, Microelectronics and VLSI Design and Communication Systems. Most importantly the department in Government of India sponsored centre for Mtech and PhD programs.  The department has well-qualified and extraordinary faculty which impart the best of the knowledge to their students.
+                </p>
+                    
+                </div>
+            </div>
+                  </div>
+            <div class ="news" >
+               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"  >
+                
+                  <div class="just-txt-div">
+                      <h2 style ="margin-left: auto; margin-right: auto;">NEWS</h2>
+                    <div class="  col-xs-12 set-div">
+               
+                    <marquee direction="up" style="height:300px;" >
+                    <br />
+     <p>
+  <ol start ="1"  >
+ <li><a href ="#">List of students regarding submission of fee in Even Semester-2016-17 -February 14, 2017  </a></li>
+<li><a href ="#">List of unregistered student in Even Semester-2016-17
+-February 10, 2017</a></li>
+<li><a href ="#">Room wise Seating Plan Mid-Even Sem. Exam. 2016-17
+-February 09, 2016</a></li>
+<li><a href ="#">Revised Schedule & Seating Plan of Mid-Even Sem. Exam. 2016-17</a></li>
+</ol>
+                </p>
+                     
+             
+                    </marquee>
+                </div>
+                
+                </div></div>
+           
+          </div>  </div>  </div>  <br>  </div>     
+  
+   <!--VEDIO SECTION END-->
+</body>
+
+</html>
+
+ <?php
+include 'Footer.php';
+?>
+
